@@ -439,19 +439,19 @@ align-self: center;
 
 .imga1{
     vertical-align: middle;
-    padding: 0 70px 0 90px;
+    padding: 0 0 0 0;
 }
 .imga2{
     vertical-align: middle;
-    padding: 0 105px 0 130px;
+    padding: 0 0 0 10px;
 }
 .imga4{
     vertical-align: middle;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 10px;
 }
 .imga5{
     vertical-align: middle;
-    padding: 0 0 0 0;
+    padding: 0 0 0 10px;
 }
 .samples{
     display: flex;
@@ -607,49 +607,7 @@ left: 50%;
   .icons i:hover  {
     color: orangered;
   }
-  @media (max-width:450px){
-      
- .follow{
-    width: 100%;
-   }
-   .socials span{
-    font-size: 12px;
-   }
-   .icons{
-    gap: 50px;
-   }
-
-   .sambox{
-    position: relative;
-    width: 40%;
-    overflow: hidden;
-    vertical-align: middle;
-    margin: 0 20% 0 28%;
-    justify-content: center;
-    align-self: center;
-    }
-    
-    
-    .imga1{
-        vertical-align: middle;
-        padding:0;
-    }
-    .imga2{
-        vertical-align: middle;
-        padding: 0 ;
-    }
-    .imga4{
-        vertical-align: middle;
-        padding: 0;
-    }
-    .imga5{
-        vertical-align: middle;
-        padding: 0 ;
-    }
-  }
-
-  
-
+ 
 
 
 
