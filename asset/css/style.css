@@ -20,11 +20,11 @@ header{
     left: 0;
     right: 0;
     text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 5px 5px;
     z-index: 999;
 }
 .logo{
-width: 35%;
+width: 30%;
 height:auto;
 display: inline-block;
 text-align: left;
@@ -46,6 +46,7 @@ vertical-align: middle;
 
 .links{
     font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
     outline: none;
     text-decoration: none;
     color:orangered; 
@@ -57,38 +58,20 @@ vertical-align: middle;
 }
 .btn-box button{
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     font-size: 15px;
-    padding: 5px 8px;
+    padding: 8px 8px;
     border: 2px solid whitesmoke;
-    border-radius: 12px;
+    border-radius: 10px;
     color: whitesmoke;
     background: transparent;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .btn-box button:hover{
     background:whitesmoke;
     color: orangered;
     font-weight: bolder;
-}
-.btn-boxb button{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 5px 12px;
-    font-size: 15px;
-    background: whitesmoke;
-    color: orangered;
-    font-weight: bolder;
-    border: 1px solid whitesmoke;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: 0.4s;
-    margin-left: 10px;
-}
-
-.btn-boxb button:hover{
-    background: transparent;
-    color: whitesmoke;
-    border: 2px solid whitesmoke;
 }
 
 
@@ -98,8 +81,8 @@ vertical-align: middle;
     height: auto;
     margin: 70px 0 0 0;
     text-align: center;
-    background: url(images.jfif);
-    padding:  60px 0 50px 0 ;
+    background: url(event.webp);
+    padding:  30px 50px  ;
    
 }
 
@@ -114,7 +97,7 @@ vertical-align: middle ;
 
 .fbcon{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: whitesmoke;
+    color:rgb(229, 231, 202);
     text-align: left;
 
 
@@ -146,10 +129,10 @@ vertical-align: middle ;
 }
 .Hire button{
     font-family: 'Times New Roman', Times, serif;
-    padding: 8px 13px;
-    font-size: 18px;
+    padding: 10px 35px;
+    font-size: 30px;
     background: whitesmoke;
-    color: red;
+    color: orangered;
     font-weight: bolder;
     border: 1px solid whitesmoke;
     border-radius: 10px;
@@ -158,30 +141,34 @@ vertical-align: middle ;
   
 }
 .Hire button:hover{
-    background: red;
+    background:orangered;
     color: antiquewhite;
     font-weight: bold;
 }
 .fbcon h1{
-font-size: 29px;
+font-size: 30px;
 font-weight: bold;
 margin-bottom: -10px;
+text-transform: uppercase;
+
  
 }
 .fbcon h2{
 font-size: 20px;
 font-weight: lighter;
 margin-bottom: -20px;
+
 }
 .fbcon h3{
-    font-size:20px;
+    font-size:21px;
     font-weight: normal;
     
 }
 .fbcon span{
-font-size: 14px;
-width: 80%;
+font-size: 19px;
+width: 90%;
 display: inline-block;
+font-family: 'Times New Roman', Times, serif;
 
 }
 .img-box{
@@ -211,9 +198,21 @@ display: inline-block;
     padding: 40px 0 60px 0;
     z-index: -1;
     text-align: center;
-
-
-}
+    background:linear-gradient(45deg,white,rgb(185, 182, 182),white,rgb(185, 182, 182));
+    animation: color 15s ease-in-out infinite;
+    background-size: 300% 300%;
+  }
+  @keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
 .profile{
  display: inline-block;
 width: 40%;
@@ -230,7 +229,7 @@ vertical-align: left ;
     vertical-align: middle;
     text-align: left;
     margin-left: -50%;
-    margin-top: 20px;
+    margin-top: 40px;
     box-shadow: 0 0 30px rgb(54, 53, 53);
 }
 
@@ -270,8 +269,8 @@ text-align: justify;
 .fbbox{
     width:25%;
     height:auto;
-    background: whitesmoke;
-    box-shadow:0 0 10px rgb(199, 197, 195);
+    background: rgb(241, 235, 235);
+    box-shadow:0 0 7px rgb(245, 184, 148);
     border-radius: 12px;
     margin-top: 10px; 
     text-align: center; 
@@ -293,8 +292,8 @@ padding: 10px 0 0 0;
 .keybox{
     width:25%;
     height:auto;
-    background: whitesmoke;
-    box-shadow:0 0 10px rgb(199, 197, 195);
+    background: rgb(241, 235, 235);
+    box-shadow:0 0 7px rgb(245, 184, 148);
     border-radius: 12px;
     margin-top: 10px; 
     margin-left: -8px;
@@ -443,7 +442,7 @@ align-self: center;
 }
 .imga2{
     vertical-align: middle;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 10;
 }
 .imga4{
     vertical-align: middle;
@@ -451,7 +450,7 @@ align-self: center;
 }
 .imga5{
     vertical-align: middle;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0;
 }
 .samples{
     display: flex;
@@ -471,17 +470,17 @@ align-self: center;
 .dot{
     display: flex;
     justify-content: center;
-    margin: 3px 10px 5px 0;
+    margin: 6px 10px;
 
 }
 .dot label{
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     border: solid white 2px;
     cursor: pointer;
     transition: all o,10s ease;
-    margin: 5px ;
+    margin: 10px ;
 
 }
 .dot label:hover{
@@ -504,7 +503,7 @@ align-self: center;
 .fourth-banner{
         width: 100%;
         height: auto;
-        background:#f2f2f7;
+        background:#f3f8c1;
         margin: 0 0 0 0;
        
         padding: 40px 0 60px 0;
@@ -550,13 +549,13 @@ padding: 0 20px 0 20px;
  .proout{
     width: 70%;
     height: 12px;
-    background: #7a7a7c;
+    background: #929292;
     border-radius: 20px;
  } 
  .proin{
     width: 0%;
     height: 12px;
-    background: #0303fa;
+    background:linear-gradient(45deg,orangered,orange,orangered);
     border-radius: 20px;
  }
  .picbox{
@@ -589,6 +588,7 @@ left: 50%;
   }
   .socials span{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
     font-weight: bold;
     color:white;
   
@@ -596,7 +596,7 @@ left: 50%;
   .icons{
     display: flex;
     margin-top: 10px;
-    gap: 70px;
+    gap: 100px;
     cursor: pointer;
     transition: 0.4s;
   }
@@ -607,8 +607,7 @@ left: 50%;
   .icons i:hover  {
     color: orangered;
   }
- 
-
+  
 
 
 
