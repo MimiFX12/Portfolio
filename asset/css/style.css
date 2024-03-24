@@ -397,12 +397,12 @@ background-size: 300% 300%;
  color: black;
  border-radius: 5px;
  border: none;
- margin-left: 10px;
  font-size: 28px;
  font-family: 'Times New Roman', Times, serif;
  font-weight: bolder;
  cursor: pointer;
  transition: 0.1ms;
+ margin:0 40% 0 40%;
 }
 .examples button:hover{
     opacity: 50%;
@@ -414,13 +414,13 @@ width: 95%;
 height: auto;
 vertical-align: middle;
 text-align:center;
-margin-bottom:5%;
+margin-bottom:10px;
 }
 .text span{
     text-align: center;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
 }
 .sambox{
@@ -428,28 +428,19 @@ position: relative;
 width: 40%;
 overflow: hidden;
 vertical-align: middle;
-margin: 0 20% 0 28%;
+margin: 0 20% 20px 28%;
 justify-content: center;
 align-self: center;
 }
 
 
-.imga1{
-    vertical-align: middle;
-    padding: 0 0 0 0;
-}
+
 .imga2{
     vertical-align: middle;
     padding: 0 0 0 10;
 }
-.imga4{
-    vertical-align: middle;
-    padding: 0 0 0 10px;
-}
-.imga5{
-    vertical-align: middle;
-    padding: 0 0 0 0;
-}
+
+
 .samples{
     display: flex;
     width: 100%;
@@ -465,38 +456,7 @@ align-self: center;
     display: none;
     
 }
-.dot{
-    display: flex;
-    justify-content: center;
-    margin: 6px 10px;
 
-}
-.dot label{
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: solid white 2px;
-    cursor: pointer;
-    transition: all o,10s ease;
-    margin: 10px ;
-
-}
-.dot label:hover{
-    background: white;
-}
-#samp1:checked ~ .imga1{
-    margin-left: 0;
-}
-#samp2:checked ~ .imga2{
-    margin-left: -100%;
-}
-
-#samp4:checked ~ .imga4{
-    margin-left: -200%;
-}
-#samp5:checked ~ .imga5{
-    margin-left: -300%;
-}
 
 .fourth-banner{
         width: 100%;
