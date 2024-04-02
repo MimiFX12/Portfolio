@@ -91,7 +91,7 @@ display: inline-block;
 width: 40%;
 height: auto;
 padding: 40px 0;
-vertical-align: middle ;
+vertical-align: middle;
 
 }
 
@@ -106,7 +106,7 @@ vertical-align: middle ;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     margin-top:20px;
-    margin-bottom:-50px;
+    margin-bottom:10px;
 }
 .Mail label{
     font-size: 16px;
@@ -120,11 +120,13 @@ vertical-align: middle ;
    font-weight:bold;
 
 }
+
 .Hire{
     width: 70%;
     height: auto;
     align-items: left;
-    margin-top: 15%;
+    margin-top: 30%;
+    display: inline;
 
 }
 .Hire button{
@@ -144,6 +146,7 @@ vertical-align: middle ;
     color: antiquewhite;
     font-weight: bold;
 }
+
 .fbcon h1{
 font-size: 30px;
 font-weight: bold;
