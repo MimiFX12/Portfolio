@@ -29,7 +29,8 @@ body{
 }
 .container{
   max-width: 600px;
-  background: #fff;
+  background:linear-gradient(45deg,rgb(209, 206, 206), rgb(112, 106, 106));
+  background-size:350%;
   width: 600px;
   padding: 25px 10px 10px 10px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);

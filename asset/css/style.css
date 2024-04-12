@@ -80,24 +80,26 @@ vertical-align: middle;
     width: 100%;
     height: auto;
     margin: 70px 0 0 0;
-    text-align: center;
-    background: url(images.jfif);
-    padding:  30px 0 60px 0 ;
+    
+    background: url(adobestock_225442477.jpeg);
+    background-size: cover;
+    padding:  30px 0 0 0;
    
 }
 
 .text-box{
 display: inline-block;
-width: 40%;
+width: 60%;
 height: auto;
-padding: 40px 0;
+padding: 40px 0 40px 20px;
 vertical-align: middle;
 
 }
 
 .fbcon{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(229, 231, 202);
+    color:rgb(3, 3, 3);
+    font-weight: bold;
     text-align: left;
 
 
@@ -125,50 +127,51 @@ vertical-align: middle;
     width: 70%;
     height: auto;
     align-items: left;
-    margin-top: 30%;
+    margin-top: 0;
     display: inline;
 
 }
 .Hire button{
     font-family: 'Times New Roman', Times, serif;
-    padding: 10px 35px;
-    font-size: 30px;
+    padding: 15px 40px;
+    font-size: 35px;
     background: whitesmoke;
-    color: orangered;
+    color: rgb(255, 0, 0);
     font-weight: bolder;
     border: 1px solid whitesmoke;
     border-radius: 10px;
+    margin-top: 10%;
   
   
 }
 .Hire button:hover{
-    background:orangered;
+    background:rgb(255, 0, 0);
     color: antiquewhite;
     font-weight: bold;
 }
 
 .fbcon h1{
-font-size: 30px;
+font-size: 36px;
 font-weight: bold;
 margin-bottom: -10px;
 text-transform: uppercase;
-color:gold;
+color:rgb(255, 0, 0);
 
  
 }
 .fbcon h2{
-font-size: 20px;
-font-weight: lighter;
+font-size: 24px;
+font-weight: bold;
 margin-bottom: -20px;
 
 }
 .fbcon h3{
-    font-size:21px;
+    font-size:26px;
     font-weight: normal;
     
 }
 .fbcon span{
-font-size: 19px;
+font-size: 22px;
 width: 90%;
 display: inline-block;
 font-family: 'Times New Roman', Times, serif;
@@ -177,7 +180,7 @@ font-family: 'Times New Roman', Times, serif;
 .img-box{
 
     display: inline-block;
-    width: 40%;
+    width: 0;
     height: auto;
     vertical-align: middle;
    
@@ -185,8 +188,7 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 .img-box img{
-    width: 500px;
-    height: 500px;
+   height: 400px;
     object-fit: contain;
     position: relative;
    
@@ -233,6 +235,7 @@ vertical-align: left ;
     text-align: left;
     margin-left: -50%;
     margin-top: 40px;
+    border-radius: 24px;
     box-shadow: 0 0 30px rgb(54, 53, 53);
 }
 
@@ -537,7 +540,8 @@ left: 70%;
     background:none;
     margin-left: 40%;
  }
-.follow{
+ 
+.end{
     width: 100%;
     height: auto;
     background:black;
@@ -566,7 +570,7 @@ left: 70%;
   }
   
   .icons i:hover  {
-    color: orangered;
+    color: red;
   }
   
 
