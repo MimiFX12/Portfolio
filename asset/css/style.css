@@ -541,32 +541,34 @@ left: 70%;
     margin-left: 40%;
  }
  
-.end{
+ .follow{
     width: 100%;
     height: auto;
-    background:black;
-    position: relative;
+    background: rgb(94, 91, 91);
+    position: absolute;
+    margin-left: -40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    padding: 40px 20px;
   }
   .socials span{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 29px;
     font-weight: bold;
     color:white;
   
   }
   .icons{
+
     display: flex;
     margin-top: 10px;
-    gap: 100px;
+    gap: 22%;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.9s;
   }
   .icons i {
-    color: white;
+    color: rgb(255, 254, 254);
   }
   
   .icons i:hover  {
